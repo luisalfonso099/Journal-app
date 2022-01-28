@@ -1,0 +1,21 @@
+.nothing__main-content{
+    align-items: center;
+    display: flex;
+    background-color: $primary;
+    color: white;
+    flex-direction: column;
+    justify-content:center;
+    height: 100vh;
+
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px){
+    .nothing__main-content{
+        width: 100vw;
+        position: absolute;
+        left: 0;
+    }
+}
