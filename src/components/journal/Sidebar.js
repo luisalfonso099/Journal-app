@@ -21,7 +21,7 @@ const Sidebar = () => {
           <i className="fa fa-moon"></i>
           <span>{name}</span>
         </h3>
-        <button onClick={handleLogout} className="btn">
+        <button onClick={handleLogout} className="btn btn-danger">
           Logout
         </button>
       </div>

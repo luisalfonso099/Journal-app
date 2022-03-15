@@ -32,8 +32,9 @@
 }
 
 .btn-danger{
-    background-color: red;
+    background-color: rgb(170, 3, 3);
     transition: background-color .3s ease;
+    border-radius: 2px;
     &:hover {
         background-color: darken($color:red, $amount: 7)
     }

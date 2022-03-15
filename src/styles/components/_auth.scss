@@ -13,22 +13,25 @@
     box-shadow: 0 3px $dark-grey;
     border-radius: 2px;
     padding: 20px;
-    width: 250px;
+    width: 350px;
 }
 .auth__title{
     color: darken($color: $primary, $amount : 20);
+    font-size: 2em;
+    text-align: center;
 }
 .auth__input{
     color: $dark-grey;
-    border: 0px;
-    border-bottom: 1px solid $light-grey;
+    border: 2px solid #4bcbeb; 
+    border-radius: 5px;
     font-size: 16px;
+    padding: 5px;
     margin-bottom: 10px;
-    height: 20px;
+    height: 45px;
     width: 100%;
     transition: border-bottom .3s ease;
     &:focus{
-        border-bottom: 1px solid $primary;
+        border: 2px solid $primary;
         outline: none;
     }
 }
