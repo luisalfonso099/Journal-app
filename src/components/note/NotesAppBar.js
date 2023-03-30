@@ -28,7 +28,7 @@ const NotesAppBar = () => {
 
       <div>
         <button onClick={hadlePictureClick} className="btn">
-          Picture
+          Add Picture
         </button>
         <button onClick={handleSave} className="btn">
           Save
